@@ -1,0 +1,93 @@
+  h5{
+  	color: black;
+  	background-color: red;
+  } 
+  h3{
+    color: black;
+    background-color: yellow;
+  }
+  h4{
+  	color: black;
+  	background-color: pink;
+  }
+   #p1 {
+   	width: 60px;
+   	height: 22px;
+   	border: 1px solid black;
+   	margin-bottom: 15px;
+   	float: right;
+    margin-right: 25px;
+   }
+   
+	h1 {
+		font-family: Helvetica;
+		text-align: center;
+	}
+
+	p{
+		border: 1px solid black;
+		background-color: grey;
+		width: 90%;
+		height: 150px;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: Helvetica;
+		color: white;
+		padding-top: 22px;
+
+	}
+	.row {
+		width: 100%;
+	}
+	 @media (min-width: 992px)
+	   {
+	.col-lg-1,.col-lg-2, .col-lg-3{
+			float: left;
+			border: 1px solid green;
+		}
+		.col-lg-1{
+			width: 33%;
+		}
+
+		.col-lg-2{
+			width: 33%;
+		}
+
+		.col-lg-3{
+			width: 33%;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px)
+	{
+ 		.col-md-1,.col-md-2, .col-md-3{
+			float: left;
+			
+		}
+		.col-md-1{
+			width: 50%;
+		}
+
+		.col-md-2{
+			width: 50%;
+		}
+
+		.col-md-3{
+			width: 100%;
+		}
+	@media (min-width: 767px)
+	{
+		.col-sm-1, .col-sm-2, .col-sm-3{
+			float: left;
+			
+		}
+		.col-sm-1{
+			width: 100%;
+		}
+
+		.col-sm-2{
+			width: 100%;
+		}
+
+		.col-sm-3{
+			width: 100%;
+		}
